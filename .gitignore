@@ -1,0 +1,23 @@
+# Competition data: download it from Kaggle, never commit it
+data/
+
+# Generated outputs
+submissions/
+
+# Credentials (skore Hub)
+.skore
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

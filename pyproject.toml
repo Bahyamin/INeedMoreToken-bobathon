@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parkinson"
+version = "1.0.0"
+description = "Prediction of the MDS-UPDRS Part III motor score of Parkinson's patients (Kaggle, Bobathon 2026)."
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+    "scikit-learn>=1.9",
+    "pandas>=3.0",
+    "numpy>=2.5",
+    "skore>=0.26",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
