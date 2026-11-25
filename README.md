@@ -14,6 +14,8 @@
 | RMSE en validation croisée groupée par patient | 2,88 ± 0,04 |
 | Gain par rapport à une régression Ridge (même validation) | 10,60 → 2,88 : **erreur divisée par 3,7** |
 
+![Leaderboard privé Kaggle : équipe IneedMoreToken classée 28e avec un RMSE de 2,695](docs/figures/kaggle_leaderboard.png)
+
 ## Le problème
 
 Le score moteur MDS-UPDRS (partie III) mesure la sévérité de la maladie de Parkinson. Chaque
